@@ -1,0 +1,10 @@
+{
+  "id": "github-dark-vscode",
+  "name": "GitHub Dark (VSCode)",
+  "author": {
+    "name": "appindus-kanderson",
+    "url": "https://github.com/appindus-kanderson"
+  },
+  "description": "Dark theme matching the VSCode 'GitHub Dark (Web Based)' color theme, with a green accent.",
+  "version": "1.0.0"
+}

@@ -1,0 +1,172 @@
+/*
+ * GitHub Dark (VSCode) - mirrors the VSCode "GitHub Dark (Web Based)" theme
+ * (david-j-lee.github-dark-color-theme) plus the tab.activeBorder #0cf388 override.
+ * Dark only - light mode falls back to Beekeeper defaults.
+ * License: MIT (see LICENSE)
+ */
+
+.dark-theme {
+  /* Seeds */
+  --background: #0d1117;
+  --base-gray: #6e7681;
+  --base-accent: #1f6feb;
+  --base-blue: #58a6ff;
+  --base-green: #56d364;
+  --base-yellow: #d29922;
+  --base-orange: #ffa657;
+  --base-red: #f85149;
+  --base-purple: #d2a8ff;
+  --base-pink: #f778ba;
+
+  /* App */
+  --app-bg: #0d1117;
+  --app-fg: #c9d1d9;
+  --focus-ring: 1px solid #005cc5;
+  --link-fg: #58a6ff;
+  --selection-bg: #1f82eb9b;
+  --selection-fg: #ffffff;
+  --scrollbar-track: transparent;
+  --scrollbar-thumb: #6a737d33;
+  --preloader-bg: #0d1117;
+  --preloader-fg: #c9d1d9;
+  --preloader-accent: #0cf388;
+
+  /* Buttons (VSCode buttons are green) */
+  --btn-primary-fg: #dcffe4;
+  --btn-primary-bg: #176f2c;
+  --btn-primary-bg-hover: #22863a;
+  --btn-flat-fg: #ffffff;
+  --btn-flat-bg: #444d56;
+  --btn-flat-bg-hover: #586069;
+  --btn-fg: #c9d1d9;
+  --btn-fg-hover: #ffffff;
+  --btn-bg-hover: #21262d;
+  --btn-icon-fg: #8b949e;
+  --btn-icon-fg-hover: #c9d1d9;
+
+  /* Inputs */
+  --input-bg: #010409;
+  --input-fg: #c9d1d9;
+  --input-border: 1px solid #30363d;
+  --input-border-focus: 1px solid #005cc5;
+  --checkbox-border: #30363d;
+  --checkbox-bg: #444d56;
+
+  /* Title bar / activity bar / sidebar */
+  --titlebar-bg: #161b22;
+  --titlebar-fg: #c9d1d9;
+  --titlebar-inactive-bg: #161b22;
+  --titlebar-inactive-fg: #959da5;
+  --sidebar-bg: #0d1117;
+  --sidebar-fg: #d1d5da;
+  --sidebar-rail-bg: #161b22;
+  --sidebar-rail-fg: #6a737d;
+  --sidebar-rail-fg-hover: #c9d1d9;
+  --sidebar-rail-active-fg: #c9d1d9;
+  --sidebar-rail-active-bg: transparent;
+  --sidebar-rail-border: #30363d;
+  --gutter-border: #21262d;
+  --query-editor-gutter-border: #30363d;
+  --tree-guide-border: #2f363d;
+  --tree-guide-border-hover: #444d56;
+
+  /* Panels / menus / notifications */
+  --panel-bg: #161b22;
+  --panel-fg: #c9d1d9;
+  --panel-bg-hover: #21262d;
+  --panel-border: 1px solid #30363d;
+  --menu-bg: #1c2128;
+  --menu-fg: #c9d1d9;
+  --menu-bg-hover: #044289;
+  --menu-border: 1px solid #30363d;
+  --connection-form-card-bg: #161b22;
+  --notif-bg: #161b22;
+  --notif-fg: #c9d1d9;
+  --notif-info-fg: #58a6ff;
+  --notif-success-fg: #56d364;
+  --notif-warning-fg: #ffab70;
+  --notif-error-fg: #ea4a5a;
+  --notif-close-fg: #8b949e;
+  --notif-close-fg-hover: #c9d1d9;
+  --kbd-bg: #21262d;
+  --kbd-fg: #c9d1d9;
+  --badge-primary-bg: #044289;
+  --badge-primary-fg: #c8e1ff;
+  --badge-flat-bg: #21262d;
+  --badge-flat-fg: #c9d1d9;
+
+  /* Status bar */
+  --statusbar-bg: #161b22;
+  --statusbar-fg: #d1d5da;
+  --statusbar-fg-inverse: #0d1117;
+
+  /* Tabs */
+  --tabs-header-bg: #0d1117;
+  --tab-fg: #8b949e;
+  --tab-bg: #0d1117;
+  --tab-active-fg: #c9d1d9;
+  --tab-active-bg: #090c10;
+  --bottom-panel-bg: #0d1117;
+
+  /* Results table */
+  --table-bg: #090c10;
+  --table-fg: #c9d1d9;
+  --table-header-shadow: inset 0 -1px #30363d;
+  --table-row-header-shadow: 1px 0 #30363d;
+  --table-row-odd-bg: #161b2280;
+  --table-row-even-bg: transparent;
+  --table-row-added-bg: #28a74530;
+  --table-row-deleted-bg: #d73a4930;
+  --table-cell-bg-hover: #161b22;
+  --table-cell-selected-bg: #388bfd1a;
+  --table-header-selected-bg: #1f6feb;
+  --table-header-selected-fg: #ffffff;
+  --table-range-border: #0cf388;
+  --table-range-handle-bg: #0cf388;
+  --table-cell-edited-bg: #bb80092f;
+  --table-cell-readonly-fg: #8b949e;
+
+  /* Editor chrome */
+  --editor-bg: #090c10;
+  --editor-fg: #c9d1d9;
+  --editor-cursor-bg: #c8e1ff;
+  --editor-selected-bg: #1f82eb9b;
+  --editor-activeline-bg: #161b22;
+  --editor-activeline-gutter-bg: #161b22;
+  --editor-gutter-bg: #090c10;
+  --editor-linenumber-fg: #f0f6fc4d;
+  --editor-linenumber-active-fg: #c9d1d9;
+  --editor-indent-marker-bg: #2f363d;
+  --editor-indent-marker-active-bg: #444d56;
+  --editor-matchingselection-bg: #1f82eb3c;
+  --editor-searchmatch-bg: #bb80092f;
+  --editor-searchmatch-selected-bg: #bb8009a1;
+  --editor-highlight-bg: #17e5e650;
+  --editor-diff-inserted-bg: #28a74530;
+  --editor-diff-deleted-bg: #d73a4930;
+}
+
+/* Syntax (GitHub Dark token colors) */
+.dark-theme {
+  --syntax-keyword: #ff7b72;
+  --syntax-string: #a5d6ff;
+  --syntax-constant: #79c0ff;
+  --syntax-variable: #c9d1d9;
+  --syntax-function: #d2a8ff;
+  --syntax-type: #ffa657;
+  --syntax-decorator: #d2a8ff;
+  --syntax-link: #a5d6ff;
+  --syntax-diff: #ffab70;
+  --syntax-comment: #8b949e;
+  --syntax-punctuation: #c9d1d9;
+
+  --editor-operator-fg: #79c0ff;
+  --editor-operatorKeyword-fg: #ff7b72;
+  --editor-number-fg: #79c0ff;
+  --editor-bool-fg: #79c0ff;
+  --editor-null-fg: #79c0ff;
+  --editor-property-fg: #79c0ff;
+  --editor-sql-field-fg: #79c0ff;
+  --editor-sql-alias-fg: #ffa657;
+  --editor-regexp-fg: #dbedff;
+}
