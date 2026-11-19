@@ -3,7 +3,8 @@
 A dark [Beekeeper Studio](https://www.beekeeperstudio.io) theme that matches the
 VSCode **GitHub Dark (Web Based)** color theme, so your database client looks like your editor.
 
-<!-- Add a screenshot here, e.g. ![Screenshot](screenshot.png) -->
+<img width="1817" height="1218" alt="image" src="https://github.com/user-attachments/assets/1b00d3d4-aa4f-46b7-a10e-2ca0096a20fd" />
+
 
 ## Features
 
